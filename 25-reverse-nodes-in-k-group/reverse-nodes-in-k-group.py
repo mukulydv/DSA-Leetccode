@@ -47,3 +47,8 @@ def kth_node(head, k):
         head = head.next
         k -= 1
     return head
+
+''' identified the three necessary sub-problems:
+    Locating the group ($k$-th node function).
+    Reversing the group.
+    Linking the segments.'''
